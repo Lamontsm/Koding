@@ -332,3 +332,32 @@ history
 sudo
 sudo su
 cd /home/slamont/Workspaces/hello-world
+cd /home/slamont/Workspaces/HelloWorld2
+python starter.py
+cd /home/slamont/Workspaces
+git commit -m "trying to do it with command line"
+git commit -m "trying command line again"
+git commit help
+git help
+git commit "try again"
+git log
+uit
+git help commit
+git commit -m "will this work now?"
+sudo shutdown
+shutdown
+sudo poweroff
+git remote add origin git@github.com:Lamontsm/Koding.git
+git push -u origin master
+kpm install ungit
+ungit
+install ungit
+ungit
+curl -sSL "https://raw.githubusercontent.com/koding\
+/kpm-scripts/master/installers/meta" | fish
+kpm install ungit
+ungit
+kpm install ungit
+ungit
+kpm install ungit
+ungit
