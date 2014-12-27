@@ -40,16 +40,9 @@ print """\
 import os
 print "Content-type: text/html"
 print
-print "Hello, world from python!"</pre>
-print "does this show up?"
+print "Hello, Steve from python at Koding!"</pre>
 </footer>
 </div> 
 </body>
 </html>
 """
-print "but wait there's more"
-a = 5
-b = 6
-print str(a + b)
-variable = input("give me a number")
-print str(variable)
