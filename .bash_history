@@ -361,3 +361,175 @@ kpm install ungit
 ungit
 kpm install ungit
 ungit
+ls
+cd /home/slamont/Workspaces/HelloWorld2
+cd
+ls
+cd/
+cd/Workspaces
+cd /Workspaces
+cd Workspaces
+ls
+cd HelloWorld2
+ls
+python FlaskHelloWorld.py
+ls
+python FlaskHelloWorld.py
+ls
+python FlaskHelloWorld.py
+cd /home/slamont/Workspaces/HelloWorld2
+ls
+python FlaskHello2.py
+cd /home/slamont/Workspaces/HelloWorld2
+ls
+python FlaskHello2.py
+netstat -lpn
+kill 1323
+python FlaskHello2.py
+ls
+python FlaskHello2.py
+git commit -m "two new successful Flask attempts"
+ungit
+cd /home/slamont/Workspaces
+git commit -m "added two working flask trials"
+git commit -m "Flask update 2"
+sudo poweroff
+cd /home/slamont/.git
+git commit -m "new push"
+cd /home/slamont/Workspaces
+from lxml import etree
+import xml.etree.cElementTree as etree
+sudo apt-get install etree
+import cElementTree as etree
+from lxml import etree
+xml
+help
+root = etree.Element("root")
+print(root.tag)
+sudo pip install etree
+sudo pip install lxml
+from lxml import etree
+root = etree.Element("root")
+cd /home/slamont/Workspaces/hello-world
+from lxml import etree
+sudo apt-get install libxml2-dev libxslt-dev python-dev
+pip install lxml
+from lxml import etree
+import xml.etree.ElementTree as etree
+sudo apt-get install etree
+sudo apt-get install lxml
+STATIC_DEPS=true
+sudo pip install lxml
+python -V
+sudo apt-get install python-dev
+sudo apt-get install libxml2-dev libxslt1-dev
+vmstat 5
+vb.memory
+config.vm.provider
+pip uninstall lxml
+dmesg | tail
+easy_install lxml
+sudo easy_install lxml
+from lxml import etree
+sudo install etree
+install help
+python2.7 setup.py clean build --with-cython install
+sudo dd if=/dev/zero of=/swapfile bs=1024 count=524288
+sudo chmod 600 /swapfile
+sudo mkswap /swapfile
+sudo swapon /swapfile
+sudo pip install lxml
+free
+cd /home/slamont/.lxml_files
+cd /home/slamont/.lxml_files
+sudo install lxml
+sudo apt-get lxml
+sudo apt-get install lxml
+pip install lxml
+sudo pip install lxml
+sudo apt-get install -y zlib1g-dev
+sudo apt-get install -y libxml2-dev libxslt1-dev zlib1g-dev python3-pip
+sudo pip3 install lxml
+from lxml import etree
+import xml.etree.cElementTree as etree
+import xml.etree.ElementTree as etree
+sudo apt-get install etree
+root = etree.Element("root")
+import cElementTree as etree
+import elementtree.ElementTree as etree
+lxml
+from lxml3 import etree
+lxml3
+import lxml.etree
+sudo apt-get install etree
+sudo from lxml import etree
+sudo yum install python-devel
+sudo aptitude install python-dev
+from lxml import etree
+from lxml3 import etree
+import cElementTree as etree
+pip uninstall lxml
+sudo poweroff
+cd /home/slamont/.lxml_files
+STATIC_DEPS=true pip install lxml
+python2.7
+python -v
+STATIC_DEPS=true pip install lxml
+pip -V
+setup.py -V
+lxml -V
+python -V
+sudo poweroff
+from xml import etree
+from /user/python2.7/xml import etree
+import xml.etree.ElementTree as etree
+sudo apt-get install etree
+cd /usr/lib/python2.7/xml/etree
+root = etree.Element("root")
+import xml.etree.cElementTree as ET
+python import xml.etree.cElementTree as ET
+python2.7
+imp xml.etree.cElementTree as ET
+imputil xml.etree.cElementTree as ET
+runpy xml.etree.cElementTree
+importlib xml.etree.cElementTree as ET
+tree = ElementTree(file='doc1.xml')
+ElementTree
+tree.getroot()
+b = 1
+python
+import cElementTree as ET
+python
+cd /home/slamont/Workspaces/HelloWorld2
+tree = ElementTree(file='xmltest1.xml')
+python -V
+import 
+from xml.etree.cElementTree import ET
+from python2.7/xml/etree/cElementTree import ET
+git commit -m "Adding xml file"
+git add
+git add xmltest1.xml
+git commit -m "add xml file"
+ET = xml.etree.cElementTree
+python B = 1
+cd /home/slamont/.git
+cd /home/slamont/Workspaces/hello-world
+cd /home/slamont/Workspaces/HelloWorld2
+python
+cd /home/slamont/Workspaces/HelloWorld2
+python FlaskHello2.py
+git commit
+git add Web/Steve_1.html
+git add Web/Steve_1.py
+git commit -m "played around with some web forms of python"
+sudo poweroff
+cd /home/slamont/Web
+python python.py
+sudo poweroff
+git commit
+cd Web
+git add Steve2_1.py
+fit add cod
+git add code/
+cd /
+ls
