@@ -21,4 +21,5 @@ print "but wait there's more"
 a = 5
 b = 6
 print str(a + b)
-
+import mainproc 
+mainproc.main()

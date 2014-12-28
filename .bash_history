@@ -533,3 +533,88 @@ fit add cod
 git add code/
 cd /
 ls
+cd /home/slamont/Web
+cd
+ls
+cd Web
+ls
+git add
+git add *
+git commit -m "working with streamlined HTML"
+git status
+cd /Web
+cd /home/slamont/Workspaces
+git add *
+git commit -m "are these going through?"
+cd /home/slamont/Web
+git status
+git add *
+git commit -m "have to make this work"
+cd /home/slamont/Web
+git config
+ls -al ~/.ssh
+ls -al ~/.ssh
+ssh-keygen -t rsa -C "steve@lamont.email"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+sudo apt-get install xclip
+xclip -sel clip < ~/.ssh/id_rsa.pub
+ssh -T git@github.com
+git diff
+cd /home/slamont/Workspaces
+git add
+git commit
+git add *
+git commit -m "hope I have this right"
+cd /home/slamont/Workspaces
+git commit
+git add */*
+git commit -m "get it right this time"
+git commit
+git add *
+git commit -m "another test"
+cd .
+cd /
+cd /Web
+cd Web
+ls
+cd /home/slamont/Web
+git commit
+git add *
+cd /home/slamont/Web
+git commit
+git commit -m "another"
+git status
+git commit -a
+git add *
+git add --all <Web/*>
+git add all <Web/*>
+git add all
+git add all Web/*
+git add all *
+git status
+git commit
+git commit
+git status
+git commit -a
+cd /home/slamont/Workspaces/helloworld3
+git status
+git add *
+git commit -m "another try"
+git add *
+git commit -m "another"
+git log
+cd /home/slamont/Workspaces/helloworld3
+git status
+git add *
+git add testfile.txt
+git commit -m "another"
+git log
+ungit
+ungit stop
+sudo poweroff
+cd /home/slamont/Workspaces/helloworld3
+git status
+git add *
+git commit -m "getting old"
+ungit
