@@ -22,10 +22,17 @@
     },
     "run": {
         "@path": "/.c9/runners",
-        "@runner": "Python 2.7",
+        "@runner": "Apache httpd (PHP, HTML)",
         "configs": {
             "@inited": "true",
-            "json()": {}
+            "json()": {
+                "Web Server": {
+                    "command": "",
+                    "debug": true,
+                    "name": "Web Server",
+                    "runner": "Apache httpd (PHP, HTML)"
+                }
+            }
         }
     },
     "share": {
