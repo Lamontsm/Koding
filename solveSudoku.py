@@ -18,11 +18,11 @@ class Cell():
 
 
 # Load Grid object: 9 X 9
-def load_grid(Grid):
+def load_grid(Grid, file_name):
     
     # Open the file for reading
-    with open ('sudoku_input.txt'):
-        lines = [line.rstrip('\n') for line in open('sudoku_input.txt')]
+    with open (file_name):
+        lines = [line.rstrip('\n') for line in open(file_name)]
     
     # Load the grid
     for row in range(0,9,1):
@@ -63,8 +63,11 @@ def print_grid(Grid):
         print line2
             
 
-
 # Function to print single Cell instance
+
+# Brute force solution
+def brute_force(Grd):
+    
 
 #
 # Main runner area
@@ -73,9 +76,15 @@ def print_grid(Grid):
 # Create a blank 9x9 list
 Grid = [[0 for i in range(9)] for j in range(9)]
 
-load_grid(Grid)
+load_grid(Grid,'sudoku_input.txt')
 
 print_grid(Grid)
+
+#
+# Run brute force solution
+#
+Grid1 = Grid
+
 
 
 
