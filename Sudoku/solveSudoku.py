@@ -67,9 +67,75 @@ def print_grid(Grid):
 
 # Brute force solution
 def brute_force(Grd):
-    # TODO
-    a = 5
+    # Load opens list with spaces to fill
+    opens = [(None,None)]
+    for row in range(0,9):
+        for col in range(0,9):
+            if (not Grd[row][col].is_orig):
+                opens.append([row,col])
+    del opens[0] # remove starter pair
     
+    # Loop through opens
+    opens_index = 0
+    
+    while (opens_index < len(opens)):
+        added_value = False
+        print opens
+        print opens_index
+        row = opens[opens_index][0]
+        col = opens[opens_index][1]
+        if Grd[row][col].value == None:
+            Grd[row][col].value = 1
+        while ((Grd[row][col].value <= 9) and (not added_value)):
+            chk_value = Grd[row][col].value
+            if (chk_row(Grd, row, col, chk_value) and (chk_col(Grd, row, col, chk_value)) and (chk_sqr(Grd, row, col, chk_value))):
+                added_value = True
+            else:
+                Grd[row][col].value += 1
+        if (added_value):
+            opens_index += 1
+        else:
+            opens_index -= 1
+            
+    return
+
+def chk_row(Grd, row, col, val):
+    not_found = True
+    for i in range(0,9):
+        if (Grd[row][i].value == val) and (col != i):
+            not_found = False
+            return
+    return
+    
+    
+def chk_col(Grd, row, col, val):
+    for i in range(0,9):
+        if (Grd[i][col].value == val) and (row != i):
+            not_found = False
+            return
+    return
+    
+def chk_sqr(Grd, row, col, val):
+    st_row = (int)(row/3)
+    st_col = (int)(col/3)
+    for i in range(st_row, st_row + 3):
+        for j in range(st_col, st_col + 3):
+            if (Grd[i][j].value == val) and (row != i) and (col != j):
+                not_found = False
+                return
+        return
+    
+    
+    
+# Experimenting with lists
+# a = [(None,None)]
+# print a
+# print a[0][0]
+# a.append([3,2])
+# print a
+# del a[0]
+# print a
+# print a[0][1]    
 
 #
 # Main runner area
@@ -78,25 +144,19 @@ def brute_force(Grd):
 # Create a blank 9x9 list
 Grid = [[0 for i in range(9)] for j in range(9)]
 
-load_grid(Grid,'sudoku_input.txt')
+load_grid(Grid,'sudoku-almost-filled.txt')
 
-# print_grid(Grid)
-a = [(None,None)]
-print a
-print a[0][0]
-a.append([3,2])
-print a
-del a[0]
-print a
-print a[0][1]
+print_grid(Grid)
+
 
 #
 # Run brute force solution
 #
 Grid1 = Grid
 
-# brute_force(Grid1)
-# print_grid(Grid1)
+brute_force(Grid1)
+
+print_grid(Grid1)
 
 
 
